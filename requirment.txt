@@ -14,3 +14,7 @@ if(( i % 2 ==0 )) then
 echo $i
 fi
 done
+
+rear -p ("Enter your choice") departement
+case departement in
+"cse") echo "Computer science and engineering";;
